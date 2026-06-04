@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+# 🌱 FarmFusion — AI-Powered Smart Agriculture Platform
 
-## Project info
+<div align="center">
 
-**URL**: https://lovable.dev/projects/f69514d8-a3f9-4e12-a8e9-20a62bad36cd
+![FarmFusion Banner](https://img.shields.io/badge/FarmFusion-AI%20Agriculture-green?style=for-the-badge\&logo=leaf\&logoColor=white)
 
-## How can I edit this code?
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)]()
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)]()
+[![Supabase](https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase)]()
 
-There are several ways of editing your application.
+### 🚜 Empowering Farmers with AI
 
-**Use Lovable**
+[🌐 Live Demo](#) • [🐛 Report Bug](#) • [✨ Request Feature](#)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f69514d8-a3f9-4e12-a8e9-20a62bad36cd) and start prompting.
+</div>
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🌾 About The Project
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**FarmFusion** is a full-stack AI-powered agriculture platform designed to help farmers make smarter decisions using real-time data and AI insights.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+It integrates:
 
-Follow these steps:
+* 🤖 AI (Google Gemini)
+* 🌦️ Weather data
+* 📊 Yield prediction
+* 🌱 Soil & crop intelligence
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> “Turning traditional farming into smart farming.”
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ✨ Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 🌱 Crop Recommendation
+
+* AI-based crop suggestions using soil & weather data
+* Smart confidence scoring
+
+### 🔬 Soil Analysis (AI Vision)
+
+* Upload soil image 📸
+* Detect:
+
+  * Soil type
+  * Moisture
+  * pH
+  * NPK levels
+
+### 📈 Yield Prediction
+
+* Predict crop yield (kg/hectare)
+* AI-generated improvement tips
+
+### 🐛 Pest Detection
+
+* Identify plant diseases
+* Get treatment suggestions
+
+### 🌤️ Weather Intelligence
+
+* 7-day forecast
+* Smart planting recommendations
+
+### 🤖 AI Chatbot (Adiii)
+
+* 24/7 farming assistant
+* Multi-language support
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React + TypeScript
+* Tailwind CSS
+* shadcn/ui
+
+### Backend
+
+* Supabase (Auth + DB + Edge Functions)
+* PostgreSQL
+
+### AI & APIs
+
+* Google Gemini
+* Open-Meteo API
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── lib/
+supabase/
+ ├── functions/
+ ├── migrations/
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone repo
+
+```bash
+git clone https://github.com/YOUR_USERNAME/farm-fusion-ai.git
+cd farm-fusion-ai
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run project
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+👉 Open:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:8080
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔐 Environment Variables
 
-## What technologies are used for this project?
+Create `.env` file:
 
-This project is built with:
+```env
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_ANON_KEY=your_key
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🚀 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/f69514d8-a3f9-4e12-a8e9-20a62bad36cd) and click on Share -> Publish.
+You can deploy easily on:
 
-## Can I connect a custom domain to my Lovable project?
+* **Vercel**
+* **Netlify**
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📊 Highlights
+
+* ⚛️ React + TypeScript
+* 🤖 AI-powered features
+* 🌍 Multi-language support
+* 📱 PWA enabled
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+<div align="center">
+
+⭐ Star this repo if you like it!
+
+Made with ❤️ for Smart Farming 🌾
+
+</div>

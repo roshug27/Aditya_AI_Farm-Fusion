@@ -1,0 +1,16 @@
+project_id = "ptlwjgvodxrygeehweom"
+
+[functions.analyze-soil]
+verify_jwt = false
+
+[functions.get-weather]
+verify_jwt = false
+
+[functions.predict-yield]
+verify_jwt = false
+
+[functions.farm-chat]
+verify_jwt = false
+
+[functions.detect-pest]
+verify_jwt = false

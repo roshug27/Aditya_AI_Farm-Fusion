@@ -166,11 +166,6 @@ npm run build
 * 🌍 Multi-language support
 * 📱 PWA enabled
 
----
-
-## 📄 License
-
-MIT License
 
 ---
 

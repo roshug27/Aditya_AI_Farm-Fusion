@@ -1,7 +1,3 @@
-Got it 👍 — you want **same style but cleaner + GitHub-ready formatting** (professional + structured). Here’s your improved version 👇
-
----
-
 # 🌾 FarmFusion: Full-Stack Smart Agriculture Ecosystem
 
 **FarmFusion** is a modern, multilingual platform designed to empower farmers with data-driven insights. By combining AI-driven crop recommendations, real-time weather risk analysis, and voice-enabled assistance, it bridges the gap between complex agricultural science and everyday farming.
